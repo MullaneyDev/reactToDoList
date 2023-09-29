@@ -1,0 +1,51 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 840px;
+}
+h3 {
+  font-family: sans-serif;
+}
+.toDo {
+  background-color: aliceblue;
+  width: 385px;
+  border: solid;
+  border-radius: 5px;
+  margin: 20px;
+}
+.completed {
+  background-color: azure;
+  margin: 7px;
+  width: 354px;
+  border: solid gold;
+  border-radius: 5px;
+  padding: 5px;
+  min-height: 300px;
+  margin-top: 50px;
+}
+.add {
+  background-color: lemonchiffon;
+}
+.add:hover {
+  background-color: wheat;
+}
+.delete {
+  background-color:coral;
+}
+.delete:hover{
+  background-color: firebrick;
+}
+.done {
+  background-color: lightgreen;
+}
+.done:hover{
+  background-color: green;
+}
+.edit:hover {
+  background-color: cadetblue;
+}
+.edit {
+  background-color: cornflowerblue;
+}
